@@ -2,8 +2,8 @@
 baseurl = "/" #without ending slash
 
 languageCode = "en-us"
-title = "Hugo Identity Theme"
-theme = "hugo-identity-theme"
+title = "Alimento Orgánico"
+theme = "Chinito"
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
