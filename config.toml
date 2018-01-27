@@ -3,11 +3,11 @@ baseurl = "/" #without ending slash
 
 languageCode = "en-us"
 title = "Alimento Orgánico"
-theme = "Chinito"
+theme = "hugo-identity-theme"
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Enter your tracking code to enable Google Analytics
 #googleAnalytics = "UA-XXXXX-Y"
 
@@ -109,7 +109,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   [[params.social]]
     title = "Facebook"
     icon = "fa-facebook"
-    link = "www.facebook.com/BudapetsChile"
+    link = "//www.facebook.com/BudapetsChile"
     target = "_blank"
 
   # Footer settings
